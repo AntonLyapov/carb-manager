@@ -2,7 +2,7 @@ services:
   - type: web
     name: carb-manager-strapi
     env: node
-    region: frankfurt
+    region: oregon
     plan: starter
     branch: master
     buildCommand: npm install && npm build
