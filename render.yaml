@@ -5,7 +5,7 @@ services:
     region: oregon
     plan: starter
     branch: master
-    buildCommand: npm install && npm build
+    buildCommand: npm install && npm run build
     startCommand: npm start
     healthCheckPath: /_health
     disk:
